@@ -123,3 +123,12 @@ nmap s <Plug>(easymotion-s2)
 set completeopt-=previe
 let g:deoplete#enable_at_startup = 1
 ```
+
+
+### 常见问题
+如果主题不生效请把 ～/vim/plugged/vim-colorschemes/colors 移动到 ～/.vim 目录下。
+
+
+```
+mv ～/vim/plugged/vim-colorschemes/colors ～/.vim
+```
